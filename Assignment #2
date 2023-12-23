@@ -1,0 +1,148 @@
+// -------------------------------------------ASSIGNMENT #2--------------------------------------------------
+
+// Dear Sir, 
+// Hope you doing well.
+// Muhammad Qadir,
+
+
+// Question # 1
+
+// void main() {
+//   List<int> numbers = [8, 3, 11, 5, 2, 7, 15, 4];
+
+//   int smallestNumber = findSmallestNumber(numbers);
+//   int greatestNumber = findGreatestNumber(numbers);
+
+//   print("List of Numbers: $numbers");
+//   print("Smallest Number: $smallestNumber");
+//   print("Greatest Number: $greatestNumber");
+// }
+
+// int findSmallestNumber(List<int> numbers) {
+//   int smallest = numbers[0];
+
+//   for (int number in numbers) {
+//     if (number < smallest) {
+//       smallest = number;
+//     }
+//   }
+
+//   return smallest;
+// }
+
+// int findGreatestNumber(List<int> numbers) {
+//   int greatest = numbers[0];
+
+//   for (int number in numbers) {
+//     if (number > greatest) {
+//       greatest = number;
+//     }
+//   }
+
+//   return greatest;
+// }
+
+// Question # 2
+
+// void main() {
+//   List<String> usersQadir = ['Waleed', 'Shabbir', 'Afaq', 'Umar', 'Sufiyan', 'Hassan'];
+
+//   usersQadir.removeWhere((element) => element == 'eligible');
+
+//   print(usersQadir);
+// }
+
+// Question # 3
+
+// void main() {
+//   List<int> numbers = [8, 3, 11, 5, 2, 7, 15, 4];
+
+//   int maxValue = findMaxValue(numbers);
+
+//   print("List of Numbers: $numbers");
+//   print("Maximum Value: $maxValue");
+// }
+
+// int findMaxValue(List<int> numbers) {
+//   int max = numbers[0];
+
+//   for (int number in numbers) {
+//     if (number > max) {
+//       max = number;
+//     }
+//   }
+//   return max;
+// }
+
+// Question # 4
+
+// void main() {
+//   List<String> originalList = ['apple', 'orange', 'banana', 'apple', 'grape', 'orange'];
+
+//   List<String> uniqueList = removeDuplicates(originalList);
+
+//   print("Original List: $originalList");
+//   print("List without Duplicates: $uniqueList");
+// }
+
+// List<String> removeDuplicates(List<String> inputList) {
+//   Set<String> uniqueSet = Set<String>.from(inputList);
+
+//   List<String> uniqueList = uniqueSet.toList();
+
+//   return uniqueList;
+// }
+
+// Question # 5
+
+// void main() {
+//   List<int> numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+//   print("List of Numbers: $numbers");
+//   print("Even Numbers:");
+
+//   for (int number in numbers) {
+//     if (number % 2 == 0) {
+//       print(number);
+//     }
+//   }
+// }
+
+
+// Question # 6
+
+// void main() {
+//   Map<String, double> mathMarks = {
+//     'Qadir': 30,
+//     'Shabbir': 32,
+//     'Awais': 88,
+//     'Hunain': 69,
+//     'Waleed': 15,
+//   };
+
+//   print("Original mathMarks Map: $mathMarks");
+
+//   mathMarks.removeWhere((key, value) => value <= 30);
+
+//   print("Updated mathMarks Map: $mathMarks");
+// }
+
+// Question # 7
+
+// void main() {
+//   Map<String, String> contactMap = {
+//     'name': 'Qadir',
+//     'phone': '123456789',
+//     'city': 'Karachi',
+//     'email': 'Qadir@example.com',
+//   };
+
+//   print("Original Contact Map: $contactMap");
+
+//   List<String> keysWithLength4 = contactMap.keys.where((key) => key.length == 4).toList();
+
+//   print("Keys with Length 4: $keysWithLength4");
+// }
+
+
+// BEST Regard,
